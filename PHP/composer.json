@@ -1,0 +1,17 @@
+{
+    "name": "bemyapp/laposte",
+    "description": "",
+    "license": "LGPL-2.1", 
+    "authors": [
+        {
+            "name": "Jérémie Robert contact@appydo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "adoy/oauth2": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"OAuth2": "src/"}
+    }
+}
